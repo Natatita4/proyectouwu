@@ -48,7 +48,7 @@ def aplicar_fuente():
                 color: #7e9fbd;
             }}
 
-                [data-testid="stFileUploaderDropzone"] button{{
+            [data-testid="stFileUploaderDropzone"] button{{
                 border-radius: 10px;
                 height: 50px;
                 width: 200px;
