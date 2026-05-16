@@ -1,7 +1,7 @@
 import streamlit as st
 from fuente import aplicar_fuente
 from validacion import mirar_plantilla
-
+from plantilla import descargar_plantilla
 # 2. Configuración de página
 st.set_page_config(
     page_title="OwnStats",
@@ -15,7 +15,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-if st.button("descarga la plantilla"):
+if st.download_button(
+    label="descargar plantilla",
+    data=descargar_plantilla(),
+    file_name=("plantilla.xlsx")):
     st.markdown(
     "<h3 style='text-align: center; color: 	#000000; '>la descarga ha comenzado</h1>",
     unsafe_allow_html=True
