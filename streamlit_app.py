@@ -15,7 +15,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-if st.download_button(
+if st.download_button( # Este boton deberia funcionar
     label="descargar plantilla",
     data=descargar_plantilla(),
     file_name=("plantilla.xlsx")):
