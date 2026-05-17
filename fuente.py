@@ -47,6 +47,18 @@ def aplicar_fuente():
                 background-color: #3882c7;
                 color: #7e9fbd;
             }}
+            [data-testid="stFileUploaderDropzone"] button{{
+                border-radius: 10px;
+                height: 50px;
+                width: 200px;
+                font-size: 18px;
+                font-family: 'BankSans', sans-serif !important;
+            }}
+
+            [data-testid="stFileUploaderDropzone"] button p{{
+                display: none;
+            }}
+
             </style>
             ''',
             unsafe_allow_html=True
