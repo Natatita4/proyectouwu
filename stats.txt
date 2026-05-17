@@ -1,0 +1,62 @@
+Hola chavalos, este archivo es más q nada para llevar un orden con todas las estadisticas y calculos q vamos a manejar
+
+Primero, esta es la lista de estadisticas q se recolectan en el excel:
+Tiempo jugado por héroe
+Partidas Jugadas / Ganadas / Perdidas
+Eliminaciones / E. por vida / Racha de eliminaciones (llamada racha de muertes, pero pa q no se confunda aclaro)
+Muertes / Muertes en objetivo
+Daño Inflingido / Daño I. por vida
+Sanación
+Precisión de críticos / Críticos / Críticos por vida
+Precisión con armas / Mejor Precisión en una partida
+Daño amplificado 
+Asistencias
+Golpes de Gracia
+Tiempo en objetivo
+
+Lo q da un total de 21 estadisticas principales en el excel
+
+Ahora, para agregar los cálculos extra hice una separación de gráficas, para agrupar grupos más específicos
+Los numeritos son para asegurarme de no dejar fuera ninguna estadistica, pueden ignorarlos
+
+
+Partidas:
+Tiempo Jugado con Héroe (1)
+Partidas Jugadas (2)
+Partidas Ganadas (3)
+Partidas Perdidas (4)
+Tiempo en objetivo (5)
+WinRate (Cálculo adicional)
+
+Daño general:
+Daño Inflingido (6)
+Daño Inflingido por vida (7)
+Golpes Críticos (8)
+Golpes Críticos por Vida (9)
+Golpes de Gracia (10)
+Promedio de Daño Inflingido por cada 10 minutos (Cálculo adicional)
+Promedio de Golpes Críticos por cada 10 minutos (Cálculo adicional)
+
+Stats de eliminaciones:
+Eliminaciones (11)
+Promedio de Eliminaciones por cada 10 minutos (Cálculo adicional)
+Eliminaciones por Vida (12)
+Racha de eliminaciones (13)
+
+Stats generales:
+Sanación Realizada (14)
+Promedio de Sanación por cada 10 minutos (Calculo adicional)
+Asistencias (15)
+Promedio de Asistencias por cada 10 minutos (Calculo adicional)
+Daño Amplificado (16)
+Muertes (17)
+Promedio de Muertes por cada 10 minutos (Calculo adicional)
+Muertes en objetivo (18)
+
+
+Otras estadisticas:
+Precisión con armas (19)
+Mejor Precisión en una partida (20)
+Precisión de Golpes Críticos (21)
+
+
